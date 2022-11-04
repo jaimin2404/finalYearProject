@@ -14,6 +14,187 @@ font-family: 'Source Serif Pro', serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,500;1,500&family=Oswald:wght@400;500&family=PT+Sans&family=Raleway:wght@400;500&family=Roboto+Condensed:ital@0;1&family=Roboto+Slab:wght@400;500&family=Roboto:ital@0;1&family=Slabo+27px&family=Source+Sans+Pro&family=Source+Serif+Pro:wght@300;400&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;
+    --secondary-color: #212121;
+
+}
+
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.darklightmode {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+/*Navbar's css*/
+
+.navmenu {
+    background-color: rgb(243, 243, 243);
+
+}
+
+.navmenu ul {
+    display: flex;
+}
+
+.navmenu ul div li {
+    list-style: none;
+}
+
+.fa-language
+{
+    color: rgb(0, 110, 255);
+}
+.translater {
+    font-size: 35px;
+    margin-top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 650px;
+    
+}
+
+.translater a
+{
+ color: #000106;
+}
+.fa-e,.fa-h,.fa-m,.fa-t,.fa-b,.fa-t,.fa-p,.fa-k,.fa-u,.fa-g
+{
+    padding-right: 12px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(88, 101, 242);
+    color: rgb(245, 237, 237);
+    border-radius:50%;
+    padding: 7px;
+    margin-top: 9px;
+}
+.dropdown
+{
+    border-bottom: 3px solid  rgb(88, 101, 242);
+}
+.dropdown a
+{
+    color: black;
+    margin-left: 12px;
+}
+
+.dropdown li a:hover
+{
+    background-color: rgb(88, 101, 242);
+    color: white;
+    border:1px solid black; 
+    border-radius: 22px; 
+    padding: 2px;
+}
+.socialmedia {
+    font-size: 35px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.socialmedia,.facebook {
+    margin-left: 25px;
+}
+
+.facebook a{
+    color: blue;
+}
+
+.insta a {
+    color: palevioletred;
+}
+
+.twitter a{
+    color: rgb(35, 171, 224);
+}
+
+.darklightmode {
+    font-size: 35px;
+    margin-top: 40px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgba(68, 66, 66, 0.705);
+    cursor: pointer;
+}
+
+
+ul li .dropdown li {
+    display: block;
+
+}
+
+ul li .dropdown {
+    position: absolute;
+    display: none;
+    background-color: rgb(243, 243, 243);
+    font-size: 25px;
+    padding: 15px 27px;
+
+}
+
+ul li:hover .dropdown {
+    display: block;
+
+}
+
+.dropdown:hover {
+    color: black;
+}
+
+/* End of Navbar's css */
+
+
+/* Sidebar's css */
+.sdbar {
+    height: 400px;
+    width: 20%;
+    margin-left: 20px;
+    background-color: rgb(243, 243, 243);
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-left: 3PX solid rgb(38, 163, 212);
+}
+
+.fa-clock,.fa-baseball-bat-ball,.fa-users-gear,.fa-business-time,.fa-chart-line 
+{
+    color: rgb(245, 237, 237);
+    margin-left: 4px;
+    border: 1px solid rgb(255, 238, 238);
+    border-radius:50%;
+    font-size: 25px;
+    padding: 7px;
+    background-color: rgb(38, 163, 212);
+}
+
+.icon,.category a,.icon a {
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 20px;
+    color: black;
+}
+
+.icon a:hover {
+    color:rgb(38, 163, 212);
+   
+}
+
+.category {
+    padding-left: 25px;
+    font-size: 22px;
+   
+}
+.category a:hover
+{color:rgb(38, 163, 212);
+}
+
 
 /* navbar */
 *{
