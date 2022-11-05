@@ -197,44 +197,6 @@ ul li:hover .dropdown {
 
 
 /* navbar */
-*{
-    margin: 0;
-    padding: 0;
-}
-nav{
-    width: 100%;
-}
-nav .navbar{
-    background-color:rgb(219, 219, 219);
-}
-nav .navbar ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav .navbar ul li{
-    list-style: none;
-}
-nav .navbar ul li img{
-    height: 90px;
-    margin-left: 10px;
-}
-nav .navbar ul li .lang
-{
-    margin-right: 20px;
-}
-nav .navbar ul li .lang .fas{
-    text-decoration: none;
-    font-size: 40px;
-    color: rgb(39, 47, 120);
-}
-/* end navbar */
-
-/* side-navbar */
-
-
-
-/* end side-navbar */
 
 /* News  */
 .main-content
