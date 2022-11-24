@@ -1,0 +1,646 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif;
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,500;1,500&family=Oswald:wght@400;500&family=PT+Sans&family=Raleway:wght@400;500&family=Roboto+Condensed:ital@0;1&family=Roboto+Slab:wght@400;500&family=Roboto:ital@0;1&family=Slabo+27px&family=Source+Sans+Pro&family=Source+Serif+Pro:wght@300;400&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+/* navbar-start */
+nav {
+   
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(146,140,140);
+}
+
+nav .navbar .logo {
+    margin: 7px 25px;
+}
+
+nav .navbar .logo a {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar .logo a img {
+    height: 50px;
+}
+
+nav .navbar .logo a span {
+    color: white;
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .navbar .navitem {
+    margin-right: 25px;
+}
+
+nav .navbar .navitem ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar .navitem ul li {
+    padding: 7px 12px;
+    margin: 5px 15px;
+}
+
+nav .navbar .navitem ul li a {
+    font-size: 22px;
+}
+
+nav .navbar .navitem ul li a i {
+    color: white;
+    margin: 0px 10px;
+    font-size: 23px;
+}
+
+nav .navbar .navitem ul li a:hover i,
+nav .navbar .navitem ul li a:hover span {
+    color: #f89c1d;
+
+}
+
+nav .navbar .navitem ul li a {
+    color: white;
+}
+
+.searchbox {
+    border-radius: 50px;
+    background-color: white;
+    outline: none;
+}
+
+nav .navbar .navitem ul li input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+.fa-magnifying-glass {
+    background-color: #4285f4;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+/* navbar-end */
+
+/* Terms_Conditions start */
+.main {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.897);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main .heading h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.main .container .firstpara {
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    font-size: 17px;
+}
+
+.main .container .secpara {
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    font-size: 17px;
+}
+
+.main .container .thirdpara {
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    font-size: 17px;
+}
+
+.tandc_footer {
+    background-color: #242526;
+    padding: 15px;
+    text-align: center;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 25px;
+    padding-bottom: 13px;
+}
+
+.fa-facebook:hover {
+    color: #353637;
+}
+
+.fa-instagram {
+    color: palevioletred;
+    font-size: 25px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+}
+
+.fa-instagram:hover {
+    color: #353637;
+}
+
+.fa-twitter {
+    color: #4285f4;
+    font-size: 25px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+}
+
+.fa-twitter:hover {
+    color: #353637;
+}
+
+/* Terms_Conditions end */
+
+/*aboutus*/
+.aboutus {
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutus .container1 h1 {
+    font-size: 50px;
+    padding-top: 23px;
+}
+
+.aboutus .container1 {
+    text-align: center;
+}
+
+.aboutus .container2 {
+    display: flex;
+}
+
+.aboutus .container2 .photo {
+    margin: 100px 170px;
+}
+
+.aboutus .container2 .para {
+    margin-top: 135px;
+    font-size: 22px;
+    margin-right: 75px;
+}
+.aboutus_footer
+{
+    background-color: #242526;
+    padding: 15px;
+    text-align: center;
+}
+
+/*aboutus-end*/
+.loginform {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    height: 410px;
+    justify-content: space-around;
+}
+
+.loginform .heading {
+    padding: 30px;
+    background-color: #22438C;
+    color: white;
+}
+
+.loginform .heading h2 i {
+    margin-right: 15px;
+}
+
+.loginform form {
+    padding: 25px;
+}
+
+.loginform .mainform {
+    background-color: #4285f4;
+}
+
+.loginform .mainform form .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+.loginform .mainform a {
+    color: black;
+
+}
+
+.loginform .input-field {
+    margin: 17px;
+}
+
+.loginform .input-field i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.loginform .input-field input {
+    padding: 7px 8px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.loginform .input-field input:focus {
+    outline: none;
+}
+
+.loginform button {
+    padding: 9px 22px;
+    border-radius: 50px;
+    /* margin: 35px; */
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
+
+.loginform button i {
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+.loginform .extra a {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+/*End of login page for Admin and Publisher*/
+
+/*Start Responsive part for Admin and Publisher Login*/
+@media(max-width:818px) {
+    .loginform {
+        width: 400px;
+    }
+
+    .loginform .input-field input {
+        font-size: 17px;
+        padding: 5px 6px;
+    }
+
+    .loginform button {
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+
+    .loginform button i {
+        font-size: 17px;
+    }
+
+    .loginform .extra a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:563px) {
+    .loginform .heading h2 {
+        font-size: 14px;
+    }
+
+    .loginform {
+        width: 300px;
+    }
+
+    .loginform .input-field {
+        display: flex;
+    }
+
+
+    .loginform .input-field i {
+        font-size: 22px;
+    }
+
+    .loginform .input-field input {
+        font-size: 13px;
+        padding: 3px 4px;
+    }
+
+
+
+    .loginform button {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    .loginform button i {
+        font-size: 11px;
+        margin-left: 8px;
+    }
+
+    .loginform .extra a {
+        font-size: 12px;
+        border-bottom: 1px solid black;
+        font-weight: bold;
+    }
+}
+
+/*End of Responsive part for Admin and Publisher Login*/
+
+/*Start of Category,publisher news and feedback table css*/
+.container1
+{
+    height: 100vh;
+}
+.container1 .navcontainer1 {
+    background-color: rgb(155, 153, 153);
+ 
+}
+
+.container1 .navcontainer1 .navitem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.container1 .navcontainer1 .navitem .logo {
+    display: flex;
+    align-items: center;
+}
+
+.container1 .navcontainer1 .navitem .logo img {
+    height: 55px;
+}
+
+.container1 .navcontainer1 .navitem .logoutitem {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.container1 .navcontainer1 .navitem .logoutitem .btn {
+    font-size: 18px;
+    padding: 6px;
+    background-color: rgb(10, 92, 179);
+    border: 2px solid rgb(10, 92, 179);
+    color: white;
+}
+
+.container1 .navcontainer1 .navitem .logoutitem a:hover {
+    background-color: rgb(155, 153, 153);
+    color: rgb(6, 80, 160);
+    border-radius: 4px;
+}
+
+.container1 .navcontainer1 .navitem .logoutitem a i {
+    margin-left: 5px;
+}
+
+.container1 .navcontainer2 {
+    background: #22438C;
+}
+
+.container1 .navcontainer2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.container1 .navcontainer2 ul li a {
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.container1 .user-container {
+    background-color: lavender;
+}
+
+.container1 .user-container .container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Julius Sans One", sans-serif;
+    padding: 12px;
+
+}
+
+.container1 .user-container .container .header span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btnradius {
+    font-size: 18px;
+    padding: 6px;
+    background-color: rgb(10, 92, 179);
+    border: 2px solid rgb(10, 92, 179);
+    color: white;
+    border-radius: 4px;
+}
+
+.container1 .user-container .container .header a:hover {
+    background: lavender;
+    color: rgb(15, 81, 151);
+}
+
+.container1 .user-container .container table {
+    width: 100%;
+}
+
+.container1 .user-container .container table thead th {
+    background-color: rgb(58, 56, 56);
+    color: #fff;
+    padding: 6px;
+    border: 1px solid rgb(58, 56, 56);
+}
+
+.container1 .user-container .container table tr:nth-child(odd) {
+    background-color: rgb(253, 253, 253);
+}
+
+.container1 .user-container .container table tbody tr td {
+    padding: 5px;
+    text-align: center;
+}
+.container1 .user-container .container table tbody tr td a
+{
+    color: black;
+}
+
+.container1 .user-container .container .pagination
+{
+    display: flex;
+    justify-content: center;
+}
+.container1 .user-container .container .pagination .btn{
+    font-size: 13px;
+    padding: 3px;
+    background-color: rgb(10, 92, 179);
+    border: 2px solid rgb(10, 92, 179);
+    color: white;
+    margin: 7px;
+}
+.footer .table_footer {
+    background-color: #242526;
+    padding: 15px;
+    text-align: center;
+}
+.footer .table_footer span
+{
+    color: white;
+    font-weight: bold;
+}
+.fa-facebook {
+    color: blue;
+    font-size: 25px;
+    padding-bottom: 13px;
+}
+
+.fa-facebook:hover {
+    color: #353637;
+}
+
+.fa-instagram {
+    color: palevioletred;
+    font-size: 25px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+}
+
+.fa-instagram:hover {
+    color: #353637;
+}
+
+.fa-twitter {
+    color: #4285f4;
+    font-size: 25px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+}
+
+.fa-twitter:hover {
+    color: #353637;
+}
+
+/*End of Category,publisher,news and feedback table css*/
+
+/*Starting of media query for table's category*/
+/* @media(max-width:370px) {
+    .container1 .navcontainer1 .navitem
+    {
+      width: 100%;
+    }
+} */
+/*End of Media query of Category's table*/
+.container2
+{
+    height: 75vh;
+}
+.container2 .feedbackform
+{
+    margin: auto;
+    width: 450px;
+    border: 2px solid crimson;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    margin-top: 110px;
+}
+.container2 .feedbackform form
+{
+    margin: 10px;
+    height: 450px;
+}
+.container2 .feedbackform form h1
+{
+  color: crimson;
+}
+.container2 .feedbackform form .id
+{
+   padding: 10px;    
+   align-items: center;
+}
+.container2 .feedbackform form .id input
+{
+  margin: 10px;
+  padding: 6px 17px;
+  border-radius: 10px;
+  border: 2px solid crimson;
+  font-size: 20px;
+}
+.container2 .feedbackform form .id textarea
+{
+    border: 3px solid crimson;
+    font-size: 20px;
+    border-radius: 10px;
+    color: crimson;
+}
+.container2 .feedbackform form .id textarea:focus {
+    outline: none;
+}
+.container2 .feedbackform form .id input
+{
+    border: 3px solid crimson;
+    color: crimson;
+}
+.container2 .feedbackform form .id input:focus {
+    outline: none;
+}
+
+.container2 .feedbackform form .id i
+{
+    font-size: 27px;
+    color: crimson;
+   
+}
+
+.container2 .feedbackform form .feedbackbtn 
+{
+    padding: 9px 30px;
+    margin: 0px 9px;
+    border-radius:15px;
+    background-color: rgb(231, 155, 14);
+ 
+}
+.container2 .feedbackform form .feedbackbtn:hover
+{
+    background-color: crimson;
+}
+.container2 .feedbackform form .feedbackbtn a
+{
+    color: black;
+}
+.container2 .feedbackform form .feedbackbtn a:hover
+{
+    color: white;
+}
