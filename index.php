@@ -1,258 +1,44 @@
-<?php
-include "navbar.php";
-?>
-<div class="main">
-    <div class="main-container">
-        <?php
-        include "side-navbar.php";
-        ?>
-        <div class="container">
-            <div class="news">
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
 
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../Style1.css">
+</head>
 
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
-
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
-
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
-
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
-
-                <div class="news-container">
-                    <div class="one">
-                        <div class="image">
-                            <img src="image/costApp.png" alt="">
-                        </div>
-                        <div class="news-content">
-                            <div class="top">
-                                <div class="topic">
-                                    <i class="fas fa-flag"></i>
-                                    <a href="#" class="ttl">National</a>
-                                </div>
-                                <div class="date"><i class="far fa-calendar-alt"></i> 20-05-2003</div>
-                            </div>
-                            <a href="#" class="h-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ullam?</a>
-                            <div class="content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita mollitia dolor, molestiae quasi nulla vel aspernatur, consequatur, impedit omnis nisi repudiandae animi suscipit? Veritatis delectus doloribus provident autem necessitatibus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        <div class="share">
-                            <a href="#" class="social">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <a class="btn readmore">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body>
+  <div class="loginform">
+    <div class="heading">
+      <h2><i class="fa-solid fa-user-lock"></i>ADMIN LOGIN</h2>
     </div>
-</div>
+    <div class="mainform">
+      <form action="">
+        <div class="input-field">
+          <i class="fa-solid fa-circle-user"></i>
+          <input type="text" placeholder="Username">
+        </div>
+
+        <div class="input-field">
+          <i class="fa-solid fa-lock"></i>
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="buttons">
+          <button type="submit"><a href="" class="btnreadius">Login</a><i
+              class="fa-solid fa-right-to-bracket"></i></button>
+          <button type="reset"><a href="" class="btn">Reset</a><i class="fa-solid fa-delete-left"></i></button>
+        </div>
+        <div class="extra">
+          <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
