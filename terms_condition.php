@@ -72,9 +72,8 @@ include "navbar.php";
                 may include, but is not limited to, providing instructions on how to assemble bombs, grenades and other
                 weapons, and creating "Crush" sites.</p>
         </div>
-    </div>
-
-    <?php
-    include "footer.php";
-    ?>
+    </div> 
 </div>
+<?php
+    include "footer.php";
+?>

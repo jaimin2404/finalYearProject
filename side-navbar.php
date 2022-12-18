@@ -54,6 +54,13 @@
                 <span>Technology</span>
             </a>
         </li>
+        <li>
+            <a href="#" class="links">
+                <span> <i class="fa-solid fa-square-plus"></i></span>
+                <span>Add News</span>
+            </a>
+        </li>
+       
     </ul>
     <footer>
         <div class="share">
@@ -68,11 +75,11 @@
             </a>
         </div>
         <div class="pages">
-            <span><a href="aboutus.php">about us</a></span>
-            <span><a href="privacy-policy.php">privacy policy</a></span>
-            <span><a href="terms_condition.php">terms and condition</a></span>
-            <span><a href="#" id="loginbtn">Add news</a></span>
-            <span><a href="#" id="feedbackbtn">Feedback</a></span>
+           
+            <span><a href="privacy-policy.php">Privacy Policy</a></span>
+            <span><a href="terms_condition.php">Terms and Condition</a></span>
+      
+            <!-- <span><a href="#" id="feedbackbtn">Feedback</a></span> -->
         </div>
         <p>Copyright &#169; | All rights are reserved</p>
     </footer>

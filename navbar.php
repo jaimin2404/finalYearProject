@@ -32,6 +32,9 @@
                         <a href="index.php"><i class="fa-solid fa-house"></i><span>Home</span></a>
                     </li>
                     <li>
+                        <a href="aboutus.php"><i class="fa-solid fa-users"></i><span>About us</span></a>
+                    </li>
+                    <li>
                         <!-- changes required later -->
                         <div class="lang">
                             <a href="#"><i class="fa-solid fa-language"></i></a>
@@ -43,6 +46,9 @@
                                 <a href="#">Malyalam</a>
                             </div>
                         </div>
+                    </li>
+                    <li>
+                        <a href="feedback-form.php"><i class="fa-solid fa-message"></i><span>Feedback</span></a>
                     </li>
                     <li class="searchbox">
                         <form action="" autocomplete="off">
